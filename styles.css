@@ -35,6 +35,14 @@ img {
   max-width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .site-header,
 .site-footer {
   margin: 0 auto;
@@ -96,6 +104,11 @@ img {
   grid-template-columns: minmax(0, 1fr) minmax(360px, 0.86fr);
 }
 
+.hero-copy,
+.hero-media {
+  min-width: 0;
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--gold);
@@ -117,12 +130,14 @@ h1 {
   margin-bottom: 22px;
   font-size: clamp(42px, 7vw, 72px);
   line-height: 0.98;
+  overflow-wrap: break-word;
 }
 
 h2 {
   margin-bottom: 0;
   font-size: clamp(28px, 4vw, 44px);
   line-height: 1.08;
+  overflow-wrap: break-word;
 }
 
 h3 {
@@ -336,7 +351,12 @@ figcaption {
   }
 
   h1 {
-    font-size: 42px;
+    font-size: 38px;
+    line-height: 1.02;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 
   .actions,
