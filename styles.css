@@ -130,7 +130,7 @@ h1 {
   margin-bottom: 22px;
   font-size: clamp(42px, 7vw, 72px);
   line-height: 0.98;
-  overflow-wrap: break-word;
+  text-wrap: balance;
 }
 
 h2 {
@@ -360,8 +360,9 @@ figcaption {
   }
 
   h1 {
-    font-size: 34px;
-    line-height: 1.06;
+    font-size: 32px;
+    line-height: 1.08;
+    text-wrap: auto;
   }
 
   h2 {
