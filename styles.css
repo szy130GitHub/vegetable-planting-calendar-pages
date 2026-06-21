@@ -346,17 +346,27 @@ figcaption {
 }
 
 @media (max-width: 560px) {
+  .site-header,
+  .site-footer,
+  .hero,
+  .section,
+  .final-cta {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
   .site-header nav {
     flex-wrap: wrap;
   }
 
   h1 {
-    font-size: 38px;
-    line-height: 1.02;
+    font-size: 34px;
+    line-height: 1.06;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 27px;
+    line-height: 1.12;
   }
 
   .actions,
